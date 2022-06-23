@@ -1,0 +1,35 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: darkslategrey;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+nav {
+  display: block;
+  padding: 30px;
+  text-align: end;
+
+}
+nav:hover{
+    color: azure;
+    font-size: 22px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li input{
+    border-style: outset;
+    border-color: cornflowerblue;
+}
+
+ul li input:hover{
+    border-color: darkslategrey;
+}
